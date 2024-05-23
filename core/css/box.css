@@ -1,0 +1,177 @@
+.box
+{
+    position: absolute;
+    background: #fff;
+    width: 50vw;
+    height: 75vh;
+    border: 1px solid #acacac;
+    border-radius: 6px;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.5);
+    resize: both;
+    overflow: auto;
+}
+.box a 
+{
+    text-decoration: none;
+}
+
+.box span 
+{
+    line-height: 9px;
+    vertical-align: 50%;
+}
+
+.box .titlebar
+{
+    background: linear-gradient(to top, #d5d5d5, #ebebeb);
+    color: #4d494d;
+    font-size: 11pt;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid #f3f1f3;
+    border-bottom: 1px solid #b1aeb1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    user-select: none;
+    cursor: default;
+}
+
+.box .titlebar > p
+{
+    margin: 5px 25%;
+    text-align: center;
+}
+
+.box .buttons
+{
+    padding-left: 8px;
+    padding-top: 10px;
+    float: left;
+    line-height: 0px;
+    transform: scale(1.050);
+}
+
+.box .buttons:hover a
+{
+    visibility: visible;
+}
+
+.box .close
+{
+    background: #ff5c5c;
+    font-size: 9pt;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #e33e41;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.box .close:active
+{
+    background: #c14645;
+    border: 1px solid #b03537;
+}
+
+.box .close:active .closebutton
+{
+    color: #4e0002;
+}
+
+.box .closebutton
+{
+    color: #820005;
+    visibility: hidden;
+    cursor: default;
+}
+
+.box .minimize
+{
+    background: #ffbd4c;
+    font-size: 9pt;
+    line-height: 11px;
+    margin-left: 4px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #e09e3e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.box .minimize:active
+{
+    background: #c08e38;
+    border: 1px solid #af7c33;
+}
+
+.box .minimize:active .minimizebutton
+{
+    color: #5a2607;
+}
+
+.box .minimizebutton
+{
+    color: #9a5518;
+    visibility: hidden;
+    cursor: default;
+}
+
+.box .fullscreen
+{
+    background: #00ca56;
+    font-size: 9pt;
+    line-height: 11px;
+    margin-left: 6px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #14ae46;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.box .fullscreen:active
+{
+    background: #029740;
+    border: 1px solid #128435;
+}
+
+.box .fullscreen:active .fullscreenbutton
+{
+    color: #003107;
+}
+
+.box .fullscreenbutton
+{
+    color: #006519;
+    visibility: hidden;
+    cursor: default;
+}
+
+.box .content
+{
+    padding: 10px;
+}
+
+.box h3
+{
+    margin-top: 0px;
+}
+
+.box .buttons p
+{
+    position: relative;
+    left: 0.3px;
+    bottom: 1.5px;
+}
+
+.box .content h3{
+    text-align: center;
+    padding: 20px 0px ;
+}
+
+.box .content p
+{
+    text-align: center;
+}

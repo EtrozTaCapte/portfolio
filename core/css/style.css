@@ -1,0 +1,46 @@
+:root
+{
+    --gap: 25px;
+    font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar
+{
+    display: none;
+}
+
+html,
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body
+{
+    background-image: url(../img/main_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+
+li
+{
+    list-style-type: none;
+}

@@ -1,0 +1,41 @@
+.desktop .projects
+{
+    padding: var(--gap);
+    display: flex;
+}
+
+.desktop .project
+{
+    width: 100px;
+    margin: 5px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition-property: box-shadow;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.desktop .project:hover
+{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.desktop .project + .desktop .project
+{
+    margin-left: var(--gap);
+}
+
+.desktop .project p
+{
+    color: #FFF;
+    text-shadow: 0px 3px 7px #000000;
+    position: relative;
+    text-align: center;
+    top: 110%;
+}
+.desktop .project .isopen
+{
+    display: none;
+}

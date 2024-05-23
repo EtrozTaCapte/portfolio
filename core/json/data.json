@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Analyse",
+      "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius velit eu convallis ullamcorper. Cras vehicula libero ut dictum sollicitudin. Nulla lectus nulla, blandit sit amet metus eu, sollicitudin finibus orci. Donec eu viverra mi, ut sodales odio. Sed nisi massa, placerat in porta nec, commodo non quam. Quisque sed odio varius, accumsan nisl id, aliquet urna. Pellentesque sollicitudin leo sed porta congue. Pellentesque a mauris sed augue faucibus accumsan vel et erat. Phasellus lobortis, erat et malesuada sodales, tellus lacus tristique leo, sit amet congue metus nisl sagittis nulla. Integer facilisis ac metus et facilisis. Nulla in cursus est, vel venenatis massa. Duis diam turpis, euismod vel nisi eget, congue vestibulum nibh</p>",
+      "poster": "https://cdn.icon-icons.com/icons2/3053/PNG/512/vmware_horizon_macos_bigsur_icon_189581.png"
+    },
+    {
+      "id": 2,
+      "name": "TetraBlock",
+      "desc": "<p>Smith</p> <img src='https://m.media-amazon.com/images/I/61M3rDwh4qL.png'/>",
+      "poster": "https://cdn.icon-icons.com/icons2/3053/PNG/512/ps_remote_play_macos_bigsur_icon_189855.png"
+    },
+    {
+      "id": 3,
+      "name": "ASCII Art",
+      "desc": "<p>Jones</p>",
+      "poster": "https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_bigsur_fonts_folder_icon_186060.png"
+    },
+    {
+      "id": 4,
+      "name": "projet 4",
+      "desc": "<p>boup bip</p>",
+      "poster": "https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_personal_folder_icon_186053.png"
+    },
+    {
+      "id": 5,
+      "name": "À propos",
+      "desc": "<img style='width : 20%;clip-path:ellipse(39% 50%);'src='https://www.yubigeek.com/wp-content/uploads/2022/01/5-faits-sur-eren-jaeger-de-lattaque-de-titan.jpg'/><p>Hey, moi c'est Esteban Vigouroux je suis développeur web en formation<br/><br/> je suis heureux de pouvoir vous présentez mes compétences avec ce projet!</p><p>J'étudie a l'IUT informatique du puy en velay, j'aime le challenge et relever des défis. J'ai un faible pour la musculation qui ma permis de débloquer des compétences comme la discipline et la détermination",
+      "poster": "https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_personal_folder_icon_186053.png"
+    },
+    {
+      "id": 6,
+      "name": "Paramètre",
+      "desc": "<button>appuyew</button>",
+      "poster": "https://cdn.icon-icons.com/icons2/3053/PNG/512/settings_macos_bigsur_icon_189754.png"
+    }
+  ]
+}
