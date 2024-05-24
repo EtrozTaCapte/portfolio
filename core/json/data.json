@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "TetraBlock",
-      "desc": "<link rel='stylesheet' href='./core/css/tetrablock.css'><h3>TetraBlock un jeu adapté aux personnes atteint d'handicap visuel</h3><p>Smith</p> <img src='https://m.media-amazon.com/images/I/61M3rDwh4qL.png'/>",
+      "desc": "<link rel='stylesheet' href='./core/css/tetrablock.css'><h3>TetraBlock un jeu adapté aux personnes en situation d'handicap visuel</h3><p>TetraBlock est un jeu de logique et de réflexion inspiré du célèbre jeu de puzzle des années 80.</p><br/><p>Une copie de Tetris? <br/>C'est bien plus nous avons voulu tout d'abord le rendre accessible aux plus de monde possible en faisant un jeu dans un premier temps intuitif et ne nécessitant pas un matériel hors de prix, dans un second temps accessible aux personnes en situation d'handicap visuel et voir plus dans des versions ultérieur</p>IMG<p>TetraBlock est un jeu développer sur Unity en 2D dans lequel on peut retrouvé différent mode en commencant par le jeu de puzzle de base allant jusqu'a un mode avec des bonus et des malus en passant bien evidemment par un mode dans lequel chaque action est associer à un son explicite de celle-ci</p>",
       "poster": "https://cdn.icon-icons.com/icons2/3053/PNG/512/ps_remote_play_macos_bigsur_icon_189855.png"
     },
     {
