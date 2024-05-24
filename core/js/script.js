@@ -189,6 +189,9 @@
         win.find('.minimizebutton').on('click', function(event) {
             minimize_box(id);
         })
+        win.find('.convertbutton').on('click',function(event){
+            add_img(id,'./core/img/trotro_ascii.png');
+        })
 
         $('.box').on('mousedown', move_front);
 
@@ -259,6 +262,22 @@
         })
         return;
     }
+
+
+    /**
+     * 
+     */
+    function add_img(id,src_img)
+    {
+        console.log('czenvonzêov');
+        const win = $('#box-' + id + ' .img_convert');
+        win.css({
+            'opacity' : 1,
+            'transition-property' : 'opacity ',
+            'transition-duration' : 500 +'ms',
+            'transition-timing-function' : 'ease-in-out',});
+    }
+
 
     /**
      * Déplacer une box en premier plan
