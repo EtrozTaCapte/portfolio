@@ -267,7 +267,6 @@
      */
     function add_img(id)
     {
-        console.log('czenvonzêov');
         const win = $('#box-' + id + ' .img_convert');
         win.css({
             'opacity' : 1,
