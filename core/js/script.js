@@ -135,7 +135,7 @@
                     ${data.desc}
                 </div>
             </div>
-        `).appendTo('body');//LIGNE data.desc
+        `).appendTo('body');
         return win;
     }
 
