@@ -107,25 +107,25 @@
                 <div class="titlebar">
                     <div class="buttons">
                         <div class="close">
-                            <a class="closebutton">
+                            <div class="closebutton">
                                 <span>
                                     <p>x</p>
                                 </span>
-                            </a>
+                            </div>
                         </div>
                         <div class="minimize">
-                            <a class="minimizebutton">
+                            <div class="minimizebutton">
                                 <span>
                                     <p>&ndash;</p>
                                 </span>
-                            </a>
+                            </div>
                         </div>
                         <div class="fullscreen">
-                            <a class="fullscreenbutton">
+                            <div class="fullscreenbutton">
                                 <span>
                                     <p>+</p>
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <p>${data.name}.txt</p>
