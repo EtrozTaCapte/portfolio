@@ -47,8 +47,9 @@
 
         me.view.boxes = [ ];
 
-
-        //TODO PENSER A AJOUTER UNE DIV OU CLASS POUR LE DESKTOP ET POUR LE DOCK POUR LES DIFFERENCIER DANS LE CSS(séparer en plusieurs foonction);
+        // TODO PENSER A AJOUTER UNE DIV OU CLASS
+        // POUR LE DESKTOP ET POUR LE DOCK POUR LES DIFFERENCIER DANS LE CSS
+        // (séparer en plusieurs foonction);
         projects_view('desktop');
         projects_view('dock');
 
@@ -57,10 +58,8 @@
             const id = $(this).data('id');
             open_window(id);
         });
-
-        // Écoute click n'importe où dans une box
-        
     }
+
 
     /**
      * Initialisation des icône sur desktop et dock
@@ -68,36 +67,32 @@
     function projects_view(project_class)
     {
         const view_project = $(`<div class="${project_class}"><ul class="projects"></ul></div>`).appendTo('body');
+        
         $.each(me.data.json.projects, function(index, element)
         {
             $(`.${project_class} .projects`).append(`
-                
-                    <li
-                        class="project has-background-primary p-5 id-${element.id}"
-                        style="background-image: url('${element.poster}');"
-                        data-id="${element.id}">
-                        <p class="project-title">${element.name} </p>
-                        
-                    </li>
+                <li
+                    class="project has-background-primary p-5 id-${element.id}"
+                    style="background-image: url('${element.poster}');"
+                    data-id="${element.id}">
+                    <p class="project-title">${element.name}</p>
+                </li>
             `);
 
-            me.view.boxes.push(
-                {
-                    id: element.id,
-                    x: 350,
-                    y: 200,
-                    w: 900,
-                    h: 600,
-                    fullscreen : false,
-                    minimize : false
-                }
-            );
+            me.view.boxes.push({
+                id: element.id,
+                x: 350,
+                y: 200,
+                w: 900,
+                h: 600,
+                fullscreen: false,
+                minimize: false
+            });
         });
         
-        
-
         return;
     }
+
 
     /**
      * Initialisation d'une fenêtre
@@ -154,15 +149,15 @@
         const box = $('#box-' + id);
         if (box.length === 1 || box.css('opacity') === 0) {
             box.css({
-                'z-index' : ++me.view.z_index,
-                'opacity' : 1,
-                'transform' : 'translate(0px,0px)'
+                'z-index': ++me.view.z_index,
+                'opacity': 1,
+                'transform': 'translate(0px,0px)'
             });
 
             return;
         }
 
-        const win =window_view(id);
+        const win = window_view(id);
 
         // Marquer les fenêtre déjà ouverte
         $('.dock .id-' + id + '.project' ).append("<p class='isopen'> ● </p>");
@@ -184,14 +179,16 @@
         // Écouter le clique sur le full screen
         win.find('.fullscreenbutton').on('click', function(event) {
             full_screen(id);
-        })
+        });
+
         // Écouter le clique sur le minimize screen
         win.find('.minimizebutton').on('click', function(event) {
             minimize_box(id);
-        })
+        });
+
         win.find('.convertbutton').on('click',function(event){
-            add_img(id,'./core/img/trotro_ascii.png');
-        })
+            add_img(id);
+        });
 
         $('.box').on('mousedown', move_front);
 
@@ -259,7 +256,8 @@
             'transition-property' : 'opacity , transform',
             'transition-duration' : 1000 +'ms',
             'transition-timing-function' : 'ease-in-out',
-        })
+        });
+        
         return;
     }
 
@@ -267,7 +265,7 @@
     /**
      * 
      */
-    function add_img(id,src_img)
+    function add_img(id)
     {
         console.log('czenvonzêov');
         const win = $('#box-' + id + ' .img_convert');
@@ -375,9 +373,6 @@
     window.onload = function()
     {
         init_data();
-
-        
-
     }
 
 })(window, jQuery);

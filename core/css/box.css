@@ -1,5 +1,7 @@
 .box
 {
+    --titlebar-height: 35px;
+
     position: absolute;
     background: #fff;
     width: 50vw;
@@ -30,7 +32,7 @@
     line-height: 20px;
     text-align: center;
     width: 100%;
-    height: 35px;
+    height: var(--titlebar-height);
     border-top: 1px solid #f3f1f3;
     border-bottom: 1px solid #b1aeb1;
     border-top-left-radius: 6px;
@@ -153,6 +155,8 @@
 .box .content
 {
     padding: 10px;
+    overflow: scroll;
+    height: calc(100% - var(--titlebar-height));
 }
 
 .box h3
