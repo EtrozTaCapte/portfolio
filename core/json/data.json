@@ -29,6 +29,12 @@
       "name": "À propos",
       "desc": "<link rel='stylesheet' href='./core/css/apropos.css'><img src='https://www.yubigeek.com/wp-content/uploads/2022/01/5-faits-sur-eren-jaeger-de-lattaque-de-titan.jpg' alt='photo de profil'/><p>Hey, moi c'est Esteban Vigouroux, développeur web en formation<br/><br/> je suis heureux de pouvoir vous présentez mes compétences avec ce projet!</p><p>J'étudie à l'IUT Informatique du Puy-en-Velay, j'aime le challenge et relever des défis. </p><br/><div class='competences' ><h3>COMPÉTENCES</h3><div class = 'progressbar-web'>Développement Web <br/>HTML : <br/><progress value='90' max='100'></progress> <br/> CSS : <br/><progress value='60' max='100'></progress><br/> JavaScript : <br/><progress value='80' max='100'></progress><br/> PHP : <br/><progress value='75' max='100'></progress><br/> React : <br/><progress value='40' max='100'></progress></div><div class = 'progressbar-other'>Développement Informatique<br/>C++ : <br/><progress value='70' max='100'></progress> <br/> C# : <br/><progress value='60' max='100'></progress><br/> Python : <br/><progress value='50' max='100'></progress><br/> <p style='opacity:0;'>hiddenbar : </p><progress style='opacity : 0;' value='50' max='100'></progress><br/> <p style ='opacity:0;'>hiddenbar : </p><progress style='opacity : 0;' value='50' max='100'></progress></div><br/><div class='hobbies'></div><h3>PASSE TEMPS</h3><ul><li><p>musculation</p><ul><li>Discipline</li><li>Détermination</li></ul></li><li><p>musique</p><ul><li>Concentration</li><li>Relaxation</li></li></ul></div><h3>CONTACT</h3><ul><li>mail : estebanvigouroux11@gmail.com</li><li>adresse : 9 rue du pigeonnier Blanzac 43350</li></ul>",
       "poster": "./core/img/apropos.webp"
+    },
+    {
+      "id": 6,
+      "name": "Fishing",
+      "desc": "<link rel='stylesheet' href='./core/css/fishing.css'><script src='./core/js/fishing.js'></script><div id='game' tabindex='0'><p class='timer'>00:00</p><p class='score'>score : 0</p></div>",
+      "poster": "./core/img/apropos.webp" 
     }
   ]
 }

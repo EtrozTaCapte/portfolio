@@ -1,0 +1,97 @@
+/*------------------------------
+    VARS
+------------------------------*/
+
+
+#game
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 4/3;
+    background: linear-gradient(#5c91ee, #063be8);
+    cursor: url('../img/hamecon.svg') 10 0, auto;
+    box-shadow: 0px 0px 16px 0px #000000;
+    overflow: hidden;
+}
+
+.score
+{
+    position: absolute;
+    font-weight: bolder;
+    font-size: larger;
+    right: 5%;
+    top: 1%
+}
+.timer{
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.boat
+{
+    position: absolute;
+    top: 30px;
+}
+
+.sky 
+{
+    height: 100px;
+    background: linear-gradient(#f39201, #e8e106);
+}
+
+.fil
+{
+    max-width: 1000px;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.fish
+{
+    height: 70px;
+    position: absolute;
+    animation: infinite;
+    animation-name: fish_move;
+    animation-duration: 16s;
+}
+.shark
+{
+    height: 120px;
+    position: absolute;
+    animation: infinite;
+    animation-name: fish_move;
+    animation-duration: 20s;
+}
+
+.goldenfish
+{
+    height: 60px;
+    position: absolute;
+    animation: infinite;
+    animation-name: fish_move;
+    animation-duration: 14s;
+}
+
+@keyframes fish_move {
+    0% {
+        left: -100px;
+        opacity: 1;
+        transform: scaleX(-1);
+    }
+    49%{
+        transform: scaleX(-1);
+    }
+    50% {
+        left: 100%;
+        opacity: 1;
+        transform: scaleX(1);
+    }
+    100% {
+        left : -100px;
+        opacity: 0.2;
+    }
+}
+
