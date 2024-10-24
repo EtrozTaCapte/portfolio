@@ -45,6 +45,7 @@
             goldfish_prob:10
         };
 
+        me.data_init = me.data;
         $('body').on('keydown', function(event){
             moveboat(event);
         });
@@ -335,6 +336,17 @@
         if(me.data.fish_prob+me.data.shark_prob<randint){
             return "goldenfish";
         }
+    }
+
+    /**
+     * Fermeture de fenêtre
+     */
+    function close_windowfish()
+    {
+        me.data = me.data_init;
+        time = 0;
+        clearInterval(intervale);
+        clearInterval(timer_intervale);
     }
 
     /**
