@@ -204,7 +204,7 @@
     {
         $('.dock .id-' + id + '.project .isopen' ).remove();
         const win = $('#box-' + id);
-        if($('.id-6'))
+        if(win == $('#box-6'))
         {
             close_windowfish();
         }
