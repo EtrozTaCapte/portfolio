@@ -25,3 +25,47 @@
   width: 100%;
 }
 
+/* Mise en place du Flexbox pour que les deux premiers éléments soient côte à côte */
+#box-1 #contexte-etapes {
+  display: flex; 
+  justify-content: space-between; /* Espacement entre les deux colonnes */
+  margin-bottom: 20px; /* Espacement sous la section */
+}
+
+/* Style pour la section "Contexte" */
+#box-1 #contexte {
+  flex: 1; /* Prendre autant d'espace que possible */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Style pour la section "Étapes de Réalisation" */
+#box-1 #etapes {
+  flex: 1; /* Prendre autant d'espace que possible */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Ajout de marges et de styles pour la section "Ce que j'ai pu apprendre" */
+#box-1 #apprentissage {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Pour les éléments de liste dans "Ce que j'ai pu apprendre" */
+#box-1 #apprentissage ul {
+  padding-left: 20px;
+}
+
+#box-1 #apprentissage li {
+  margin-bottom: 10px;
+}
+
+/* Image en bas du contenu */
+#box-1 img {
+  display: block;
+  max-width: 100%; /* Réduire l'image si elle dépasse la taille de l'écran */
+  margin-top: 20px; /* Un peu d'espace entre l'image et le texte */
+}
+
+
