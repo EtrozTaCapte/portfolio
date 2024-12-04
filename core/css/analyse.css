@@ -68,4 +68,8 @@
   margin-top: 20px; /* Un peu d'espace entre l'image et le texte */
 }
 
-
+#box-1 h2
+{
+  text-align: center;
+  padding-bottom: 5px;
+}
